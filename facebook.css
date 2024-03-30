@@ -20,7 +20,7 @@ header a{
 }
 
 #brand{
-    font-size: 130%;
+    font-size: 230%;
     margin-left: 2em;
     align-self: center;
     font-weight: bold;
@@ -61,6 +61,112 @@ header form input[type="submit"]{
     cursor: pointer;
 }
 
+main{
+    display: flex;
 }
+
+.section{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#left-title{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    word-spacing: -1px;
+
+}
+#right-section{
+    align-self: flex-start;
+    color: #333;
+    margin-left: 40m;
+
+}
+ 
+.input-group{
+    width: 180px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    margin:0.2em;
+}
+.input-group-full{
+    width: 393px !important;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    margin:0.2em;
+}
+.subtitle{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 3% 0;
+}
+
+select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+
+}
+input[type="radio"] ~ label
+{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding:0 10px 0 3px;
+}
+.terms{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin:1em 0;
+
+
+}
+.terms a{
+    color:#385898;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.terms a:hover{
+    text-transform: underline;
+}
+.section input[type="submit"]
+{
+    min-width: 194px;
+    padding: 7px 20px;
+    font-size: 19px;
+    background-image: linear-gradient(#67ae55, #578843);
+    background-color: linear-gradient(#67ae55, #578843);
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);  
+}
+
+
+
+
+
+
 
 
